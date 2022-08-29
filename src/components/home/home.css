@@ -1,0 +1,73 @@
+#name{
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+#hire{
+    border-radius: 20px;
+}
+
+#picture{
+    /* height: 350px;
+    width: 100%; */
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+
+#dp{
+    border-radius: 50%;
+    height: 330px;
+    width: 265px;
+    object-fit: cover;
+    box-shadow: 10px 10px 5px rgb(151, 114, 44);
+    
+}
+
+#cardHeader{
+    color: orangered;
+}
+
+#projects-card{
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+#language-code{
+background: #C9D6FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+   
+}
+
+#cv-card{
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 430px;
+}
+
+#cv{
+    font-weight: 400;
+}
+
+
+#pic-one{
+    position: relative;
+    
+}
+
+#react-pic{
+    height: 70px;
+    object-fit: contain;
+
+}
+
+#react-pic:hover{
+    background-color: white;
+}
