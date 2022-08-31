@@ -9,7 +9,7 @@ import "./home.css";
 
 export default function Home() {
   return (
-    <div className="container-lg ">
+    <div className="">
       {/* introduction page */}
 
       <section className="home-page">
@@ -69,10 +69,13 @@ export default function Home() {
 
       <section className="skills-page">
         <div className="container-lg">
-          <div className="row justify-content-around">
-            <div className="text-center display-5 mb-5 fw-bold">Skills..</div>
+          <div className="text-center display-5  " id="skills-header">
+            Skills..
+          </div>
+          <div className="underline"></div>
+          <div className="row justify-content-around mt-5">
             <div className="col-lg-3  mb-3 ">
-              <Card id="projects-card">
+              <Card id="projects-card" className="my-3">
                 <Card.Img variant="top" src="/pics/projects.jpg" />
                 <div className="card-header" id="cardHeader">
                   <h5 className="fw-bold  text-center ">Projects</h5>
@@ -88,7 +91,7 @@ export default function Home() {
               </Card>
             </div>
 
-            <div className="col-lg-3  mb-3" id="language-code">
+            <div className="col-lg-3  mb-3 my-3" id="language-code">
               <div className="text-center">
                 <div className="lead fw-bold " id="cardHeader">
                   Tools
@@ -101,23 +104,23 @@ export default function Home() {
                     <img
                       src="/pics/react.png"
                       alt=""
-                      className="image-fluid my-1 mx-1"
+                      className="image-fluid my-2 mx-1"
                       id="react-pic"
                     />
                     <h6>React JS</h6>
                   </div>
                   <div id="pic-one">
                     <img
-                      src="/pics/node.png"
+                      src="/pics/js.png"
                       alt=""
-                      className="image-fluid my-1 mx-1"
+                      className="image-fluid my-2 mx-1"
                       id="react-pic"
                     />
                     <h6>Node JS</h6>
                   </div>
                   <div id="pic-one">
                     <img
-                      src="/pics/download.jpg"
+                      src="/pics/download.png"
                       alt=""
                       className="image-fluid my-2 mx-1"
                       id="react-pic"
@@ -156,7 +159,7 @@ export default function Home() {
             </div>
 
             <div
-              className="col-lg-3  px-3 d-flex align-items-center"
+              className="col-lg-3  px-3 my-3 d-flex align-items-center"
               id="cv-card"
             >
               <div className="">
@@ -183,6 +186,57 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+      <section id="about-page">
+        <div className="container-lg mt-3">
+          <div className="text-center display-6 mt-3" id="skills-header">
+            About Me
+          </div>
+          <div className="underline"></div>
+          <div className="row justify-content-center">
+            <div className="col-lg-6 mt-4 mb-2">
+              <div>
+                <img
+                  src="/pics/about.png"
+                  className="img-fluid"
+                  alt=""
+                  id="about-me"
+                />
+              </div>
+            </div>
+            <div className="col-lg-5 my-2">
+              <div
+                id="about-text"
+                className="d-flex justify-content-center align-items-center flex-column "
+              >
+                <div>
+                  <p className="fs-5">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Harum, cum et, adipisci ut debitis atque alias rerum a
+                    totam, omnis accusantium. Dolore voluptatem numquam
+                    reprehenderit perspiciatis blanditiis reiciendis voluptas
+                    error.
+                  </p>
+                </div>
+                <div className="my-2">
+                  <Button variant="warning" size="lg" id="hire">
+                    Contact Me
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="page-footer" className="mt-5">
+        <footer class="footer mt-auto py-3 bg-light">
+          <div class="container">
+            <span class="text-muted">
+              This website has been designed and developed by me from scratch <br />
+              Copyright @ Brian Musili 2022
+            </span>
+          </div>
+        </footer>
       </section>
     </div>
   );
