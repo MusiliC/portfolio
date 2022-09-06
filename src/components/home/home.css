@@ -59,6 +59,12 @@ background: #C9D6FF;
    
 }
 
+#project-list:hover{
+
+cursor: pointer;
+
+}
+
 #cv-card{
     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
     border-radius: 10px;

@@ -80,7 +80,7 @@ export default function Home() {
                 <div className="card-header" id="cardHeader">
                   <h5 className="fw-bold  text-center ">Projects</h5>
                 </div>
-                <ListGroup variant="flush" className="">
+                <ListGroup variant="flush" className="" id="project-list">
                   <ListGroup.Item>
                     KUSA System <br /> - Kenya Universities Sports System
                   </ListGroup.Item>
@@ -229,7 +229,7 @@ export default function Home() {
         </div>
       </section>
       <section id="page-footer" className="mt-5">
-        <footer class="footer mt-auto py-3 bg-light">
+        <footer class="footer mt-auto py-2 bg-light">
           <div class="container">
             <span class="text-muted">
               This website has been designed and developed by me from scratch <br />
